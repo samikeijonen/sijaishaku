@@ -22,6 +22,20 @@ function sijaishaku_theme_setup() {
 	/* Get the theme prefix ("kalervo"). */
 	$prefix = hybrid_get_prefix();
 	
+	/* Denqueue sijaishaku plugin styles. */
+	add_action( 'wp_enqueue_scripts', 'sijaishaku_css' );
+	
+}
+
+/**
+ * Denqueue sijaishaku plugin styles.
+ *
+ * @since 0.1.0
+ */
+function sijaishaku_css() {
+
+	wp_dequeue_style( 'sijais-plugin-stylesheet' );
+	
 }
 
 ?>
