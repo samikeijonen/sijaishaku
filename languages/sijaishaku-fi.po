@@ -1,0 +1,151 @@
+# Copyright (C) 2013 Sami Keijonen
+# This file is distributed under the GNU General Public License v2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sijaishaku 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/sijaishaku\n"
+"POT-Creation-Date: 2013-08-13 16:35:16+00:00\n"
+"PO-Revision-Date: 2013-08-13 19:36+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: content.php:7 content.php:26 page-templates/result-page.php:135
+msgid ""
+"Published by [entry-author] on [entry-published] [entry-comments-link before="
+"\" | \"]"
+msgstr "[entry-author]  [entry-published] [entry-comments-link before=\" | \"]"
+
+#: content.php:15 content.php:34 page-templates/result-page.php:143
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: content.php:19 content.php:38 page-templates/result-page.php:147
+#: search.php:25
+msgid ""
+"[entry-terms before=\"Posted in \" taxonomy=\"category\"] [entry-terms "
+"before=\"| Tagged \"] [entry-terms before=\"| Academy level \" taxonomy="
+"\"academy_level\"]"
+msgstr ""
+"[entry-terms before=\"Paikkakunta \" taxonomy=\"category\"] [entry-terms "
+"before=\"| Oppiaine \"] [entry-terms before=\"| Kouluaste \" taxonomy="
+"\"academy_level\"]"
+
+#: page-templates/account-page.php:34
+msgid "Click to edit"
+msgstr "Editoi"
+
+#: page-templates/account-page.php:34
+msgid "Delete"
+msgstr "Poista"
+
+#: page-templates/account-page.php:45
+msgid "Login to the site."
+msgstr "Kirjaudu sivulle."
+
+#: page-templates/account-page.php:51
+msgid "Lost password?"
+msgstr "Unohtuiko salasana?"
+
+#: page-templates/edit-page.php:34
+msgid "Post was deleted succesfully."
+msgstr "Ilmoitus poistettiin onnistuneesti."
+
+#: page-templates/edit-page.php:39
+msgid "You do not have privileges to edit this post."
+msgstr "Sinulla ei ole oikeuksia editoida tätä ilmoitusta."
+
+#: page-templates/result-page.php:14
+msgid "Custom search"
+msgstr "Etsi"
+
+#: page-templates/result-page.php:16
+msgid "Select at least one from each group."
+msgstr "Valitse ainakin yksi jokaisesta ryhmästä."
+
+#: page-templates/result-page.php:24
+msgid "Towns"
+msgstr "Paikkakunnat"
+
+#: page-templates/result-page.php:44
+msgid "Subjects"
+msgstr "Oppiaineet"
+
+#: page-templates/result-page.php:64
+msgid "Levels"
+msgstr "Kouluasteet"
+
+#: page-templates/result-page.php:85
+msgid "Search"
+msgstr "Hae"
+
+#: page-templates/result-page.php:121
+msgid "Search results"
+msgstr "Hakutulokset"
+
+#: page-templates/send-page.php:31
+msgid "You have already left a message. Only one is allowed."
+msgstr "Olet jo jättänyt ilmoituksen. Vain yksi ilmoitus sallitaan."
+
+#. Theme Name of the plugin/theme
+msgid "Sijaishaku"
+msgstr "Sijaishaku"
+
+#. Theme URI of the plugin/theme
+msgid "https://foxnet-themes.fi/downloads/kalervo"
+msgstr "https://foxnet-themes.fi/downloads/kalervo"
+
+#. Description of the plugin/theme
+msgid "A child theme of Kalervo parent theme."
+msgstr "Sijaishakupalvelun teema. Kalervo-teeman alateema."
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr "Sami Keijonen"
+
+#. Author URI of the plugin/theme
+msgid "https://foxnet-themes.fi"
+msgstr "https://foxnet-themes.fi"
+
+#. Template Name of the plugin/theme
+msgid "Account Page"
+msgstr "Omat tiedot -sivu"
+
+#. Template Name of the plugin/theme
+msgid "Edit Page"
+msgstr "Editoi-sivu"
+
+#. Template Name of the plugin/theme
+msgid "Result Page"
+msgstr "Hakutulokset-sivu"
+
+#. Template Name of the plugin/theme
+msgid "Search Page"
+msgstr "Etsi-sivu"
+
+#. Template Name of the plugin/theme
+msgid "Send Page"
+msgstr "Lähetä-sivu"
+
+#~ msgid "List by towns"
+#~ msgstr "Paikkakunnat"
+
+#~ msgid "List by subject"
+#~ msgstr "Oppiaineet"
+
+#~ msgid "List by level"
+#~ msgstr "Kouluasteet"
+
+#~ msgid "Search for:"
+#~ msgstr "Etsi:"
+
+#~ msgid ""
+#~ "Published by [entry-author] on [entry-published] [entry-comments-link "
+#~ "before=\" | \"] [entry-edit-link before=\" | \"]"
+#~ msgstr ""
+#~ "[entry-author]  [entry-published] [entry-comments-link before=\" | \"] "
+#~ "[entry-edit-link before=\" | \"]"
