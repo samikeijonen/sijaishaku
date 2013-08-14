@@ -23,11 +23,11 @@ get_header(); // Loads the header.php template. ?>
 
 					<div class="entry-content">
 					
-						<?php if ( isset( $_GET['gform_post_id'] ) && is_user_logged_in() && current_user_can( 'edit_post', $_GET['gform_post_id'] ) ) { ?>
+						<?php if ( isset( $_GET['gform_post_id'] ) && is_user_logged_in() && current_user_can( 'edit_post', absint( $_GET['gform_post_id'] ) ) && wp_verify_nonce( $_GET['_wpnonce'], 'edit_link' ) ) { ?>
 
 							<?php the_content(); ?>
 							
-						<?php } elseif ( isset( $_GET['delete_id'] ) && is_user_logged_in() && 'on' == $_GET['delete'] && current_user_can( 'edit_post', $_GET['delete_id'] ) ) {
+						<?php } elseif ( isset( $_GET['delete_id'] ) && is_user_logged_in() && 'on' == esc_attr( $_GET['delete'] ) && current_user_can( 'edit_post', absint( $_GET['delete_id'] ) ) && wp_verify_nonce( $_GET['_wpnonce'], 'delete_link' ) ) {
 								
 								/* Delete a post when have rights to do that. */
 								wp_delete_post( $_GET['delete_id'] );
