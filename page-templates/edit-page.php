@@ -30,7 +30,7 @@ get_header(); // Loads the header.php template. ?>
 						<?php } elseif ( isset( $_GET['delete_id'] ) && is_user_logged_in() && 'on' == esc_attr( $_GET['delete'] ) && current_user_can( 'edit_post', absint( $_GET['delete_id'] ) ) && wp_verify_nonce( $_GET['_wpnonce'], 'delete_link' ) ) {
 								
 								/* Delete a post when have rights to do that. */
-								wp_delete_post( $_GET['delete_id'] );
+								wp_delete_post( absint( $_GET['delete_id'] ) );
 								echo '<p class="sijaishaku-post-deleted">' . __( 'Post was deleted succesfully.', 'sijaishaku' ) . '</p>';
 								
 							} else { ?>
