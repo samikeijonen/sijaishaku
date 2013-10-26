@@ -51,6 +51,7 @@
 }
 
 .sijaishaku-post-deleted,
+.sijaishaku-post-edit,
 .sijaishaku-post-max,
 .sijaishaku-post-register {
 	background: #f9f9f9;
@@ -58,14 +59,16 @@
 	padding: 3%;
 }
 
-.singular .entry-byline {
-	border-bottom: none;
-	margin-top: 0;
-	padding-bottom: 0;
+.sijaishaku-plugin-large {
+	min-height: 220px;
 }
 
 #sijaishaku-search-results {
 	margin-top: 1em;
+}
+
+.sijaishaku-plugin-label {
+	font-weight: bold;
 }
 
 /* === Clearfix. @link http://nicolasgallagher.com/micro-clearfix-hack === */
@@ -75,13 +78,16 @@
 #sijaishaku-check:before,
 #sijaishaku-check:after,
 .sijaishaku-search:before,
-.sijaishaku-search:after  {
+.sijaishaku-search:after,
+.facetwp-facet:before,
+.facetwp-facet:after {
 	content: " "; /* 1 */
 	display: table; /* 2 */
 }
 #sijaishaku-list-by:after,
 #sijaishaku-check:after,
-.sijaishaku-search:after  {
+.sijaishaku-search:after ,
+.facetwp-facet:after {
 	clear: both;
 }
 
@@ -91,8 +97,22 @@
  */
 #sijaishaku-list-by,
 #sijaishaku-check,
-.sijaishaku-search {
+.sijaishaku-search,
+.facetwp-facet {
 	*zoom: 1;
+}
+
+/* FacetWP CSS. */
+
+body .facetwp-checkbox,
+body .facetwp-checkbox.checked {
+	background-position: 0 3px;
+}
+body .facetwp-facet {
+	max-height: none;
+}
+.facetwp-template .entry-header:first-child {
+	clear: left;
 }
 
 /* Minimum width of 686 pixels. */
@@ -103,7 +123,10 @@
 #sijaishaku-list-by-levels,
 #sijaishaku-cat-check,
 #sijaishaku-tag-check,
-#sijaishaku-level-check  {
+#sijaishaku-level-check,
+.facetwp-facet-paikkakunnat,
+.facetwp-facet-oppiaineet,
+.facetwp-facet-kouluasteet {
 	float: left;
 	width: 33.3333333%;
 }
@@ -114,4 +137,44 @@
 	padding-right: 4%;
 }
 
+}
+
+/* Own styles. */
+
+#container {
+	background: none;
+}
+#main .wrap {
+	padding: 0 2px;
+}
+.hentry {
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	border-radius: 2px;
+	border-bottom: 2px solid #cc071e;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+/* Minimum width of 686 pixels. */
+@media screen and (min-width: 49em) {
+
+.layout-1c  .hentry  {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+}
+
+h3.menu-toggle {
+	text-align: center;
+}
+#menu-primary.toggled-on {
+	text-align: center;
+}
+
+.singular .entry-byline {
+	border-bottom: none;
+	margin-top: 0;
+	padding-bottom: 0;
 }

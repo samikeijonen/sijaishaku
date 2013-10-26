@@ -25,6 +25,9 @@ function sijaishaku_theme_setup() {
 	/* Denqueue sijaishaku plugin styles. */
 	add_action( 'wp_enqueue_scripts', 'sijaishaku_css' );
 	
+	/* Remove theme support for color palette. */
+	remove_theme_support( 'color-palette' );
+	
 }
 
 /**

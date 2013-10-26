@@ -22,7 +22,7 @@
 					</div><!-- .entry-summary -->
 
 					<footer class="entry-footer">
-						<?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( '[entry-terms before="Posted in " taxonomy="category"] [entry-terms before="| Tagged "] [entry-terms before="| Academy level " taxonomy="academy_level"]', 'sijaishaku' ) . '</div>' ); ?>
+						<?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( '[entry-terms before="City " taxonomy="city"] [entry-terms before="| Subject " taxonomy="subject"] [entry-terms before="| Academy level " taxonomy="academy_level"]', 'sijaishaku' ) . '</div>' ); ?>
 					</footer><!-- .entry-footer -->
 
 				</article><!-- .hentry -->

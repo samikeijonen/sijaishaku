@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sijaishaku 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/sijaishaku\n"
-"POT-Creation-Date: 2013-08-13 16:35:16+00:00\n"
+"POT-Creation-Date: 2013-10-26 09:31:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,17 +12,20 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: content.php:7 content.php:26 page-templates/result-page.php:135
+#: content.php:7 content.php:26
 msgid "Published by [entry-author] on [entry-published] [entry-comments-link before=\" | \"]"
 msgstr ""
 
-#: content.php:15 content.php:34 page-templates/result-page.php:143
+#: content.php:15 content.php:34
 msgid "Pages:"
 msgstr ""
 
-#: content.php:19 content.php:38 page-templates/result-page.php:147
-#: search.php:25
-msgid "[entry-terms before=\"Posted in \" taxonomy=\"category\"] [entry-terms before=\"| Tagged \"] [entry-terms before=\"| Academy level \" taxonomy=\"academy_level\"]"
+#: content.php:19 content.php:38 page-templates/facet-page.php:29 search.php:25
+msgid "[entry-terms before=\"City \" taxonomy=\"city\"] [entry-terms before=\"| Subject \" taxonomy=\"subject\"] [entry-terms before=\"| Academy level \" taxonomy=\"academy_level\"]"
+msgstr ""
+
+#: header.php:60
+msgid "&#8764;"
 msgstr ""
 
 #: page-templates/account-page.php:34
@@ -39,46 +42,6 @@ msgstr ""
 
 #: page-templates/account-page.php:51
 msgid "Lost password?"
-msgstr ""
-
-#: page-templates/edit-page.php:34
-msgid "Post was deleted succesfully."
-msgstr ""
-
-#: page-templates/edit-page.php:39
-msgid "You do not have privileges to edit this post."
-msgstr ""
-
-#: page-templates/result-page.php:14
-msgid "Custom search"
-msgstr ""
-
-#: page-templates/result-page.php:16
-msgid "Select at least one from each group."
-msgstr ""
-
-#: page-templates/result-page.php:24
-msgid "Towns"
-msgstr ""
-
-#: page-templates/result-page.php:44
-msgid "Subjects"
-msgstr ""
-
-#: page-templates/result-page.php:64
-msgid "Levels"
-msgstr ""
-
-#: page-templates/result-page.php:85
-msgid "Search"
-msgstr ""
-
-#: page-templates/result-page.php:121
-msgid "Search results"
-msgstr ""
-
-#: page-templates/send-page.php:31
-msgid "You have already left a message. Only one is allowed."
 msgstr ""
 #. Theme Name of the plugin/theme
 msgid "Sijaishaku"
@@ -105,17 +68,5 @@ msgid "Account Page"
 msgstr ""
 
 #. Template Name of the plugin/theme
-msgid "Edit Page"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Result Page"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Search Page"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Send Page"
+msgid "Facet Page"
 msgstr ""
